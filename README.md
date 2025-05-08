@@ -15,7 +15,7 @@ Here, you’ll find everything you need to get started, use, and contribute to t
 - Development roadmap and config details  
 - FAQ, troubleshooting, and community contributions
 
-> [Tip] 
+> [!TIP]
 > The source code for the actual downloader is located in the main repository:  
 > 👉 [Social Media Downloader GitHub](https://github.com/nayandas69/Social-Media-Downloader)
 
