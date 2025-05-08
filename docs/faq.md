@@ -20,7 +20,7 @@ Currently, the tool supports downloading content from:
 - **TikTok**
 - **Instagram**
 - **Facebook**
-
+See the [Supported Platforms](./supported_platforms.md) page for more details.
 We're continually working to expand support to more platforms in future updates.
 
 ---
