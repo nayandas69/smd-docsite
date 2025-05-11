@@ -1,11 +1,15 @@
 name: Deploy Docs to GitHub Pages
 
 on:
+  workflow_run:
+    workflows: ["Update Archive"]
+    types:
+      - completed
   push:
     branches: [main]
     paths:
       - 'docs/archive.md'
-      - '**.md'         
+      - '**.md'
   workflow_dispatch:
 
 permissions:
@@ -13,6 +17,8 @@ permissions:
 
 jobs:
   build-deploy:
+    # Only proceed if the previous workflow completed successfully
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
 
     steps:
