@@ -28,6 +28,8 @@ Social Media Downloader supports a wide variety of popular platforms and video t
 | Odysee       | ✅ Yes       | ✅ Yes       | Only videos.                          |
 | Rumble       | ✅ Yes       | ✅ Yes       | Only videos.                          |
 | GameClips    | ✅ Yes       | ✅ Yes       | Only videos.                          |
+| Snackvideo   | ✅ Yes       | ✅ Yes       | Only videos.                          |
+| kwai         | ✅ Yes       | ✅ Yes       | Only videos.                          |
 
 ---
 
