@@ -49,7 +49,6 @@ nav:
   - Home: index.md
   - Installation:
       - Requirements & Setup: installation.md
-  - Usage:
       - How to Use: usage.md
       - Configuration Details: config-info.md
       - Supported Platforms: supported-platforms.md
