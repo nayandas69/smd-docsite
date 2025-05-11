@@ -7,9 +7,6 @@ on:
       - completed
   push:
     branches: [main]
-    paths:
-      - 'docs/archive.md'
-      - '**.md'
   workflow_dispatch:
 
 permissions:
