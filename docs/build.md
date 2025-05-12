@@ -25,7 +25,7 @@ You’ve got a few options depending on how you want your executable to behave:
 This version will open a terminal/console window when run.
 
 ```bash
-pyinstaller --onefile downloader.py
+pyinstaller --onefile smd/downloader.py
 ```
 
 ### Silent Version (No Console Window)
@@ -33,7 +33,7 @@ pyinstaller --onefile downloader.py
 If you want to hide the terminal window (for example, when launching from a desktop shortcut or GUI), use:
 
 ```bash
-pyinstaller --onefile --noconsole downloader.py
+pyinstaller --onefile --noconsole smd/downloader.py
 ```
 
 ### With a Custom Icon
@@ -41,7 +41,7 @@ pyinstaller --onefile --noconsole downloader.py
 Want a polished feel? Add your own `.ico` file to give the executable a custom icon:
 
 ```bash
-pyinstaller --onefile --icon=assets/logo.ico downloader.py
+pyinstaller --onefile --icon=assets/logo.ico smd/downloader.py
 ```
 !!! important
     Make sure your icon file is in `.ico` format. If you’re using `.png`, you can convert it using an online tool or image editor.
@@ -55,7 +55,7 @@ After the build completes, your `.exe` file will be located in the `dist/` folde
 Building on Linux is just as straightforward. Run:
 
 ```bash
-pyinstaller --onefile downloader.py
+pyinstaller --onefile smd/downloader.py
 ```
 
 Once the build finishes, make the output binary executable:

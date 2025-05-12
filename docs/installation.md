@@ -30,7 +30,7 @@ cd Social-Media-Downloader
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
-python downloader.py
+python smd/downloader.py
 ```
 
 ### On Linux
@@ -39,7 +39,7 @@ python downloader.py
 python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
-python3 downloader.py
+python3 smd/downloader.py
 ```
 
 ---
@@ -79,7 +79,7 @@ If you see the version info, you’re good to go!
 Now you can start downloading:
 
 ```bash
-python3 downloader.py
+python3 smd/downloader.py
 ```
 
 That’s it — you’ve set up the Social Media Downloader!

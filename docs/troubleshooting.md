@@ -28,7 +28,7 @@ Without these fonts, your fancy ASCII banners won’t show up, and the script wi
 Run this command to generate a basic `.spec` file for your project:
 
 ```bash
-pyi-makespec --onefile --icon=assets/logo.ico downloader.py
+pyi-makespec --onefile --icon=assets/logo.ico smd/downloader.py
 ```
 
 This will create a file called `downloader.spec`.
@@ -47,7 +47,7 @@ from PyInstaller.utils.hooks import collect_data_files
 datas = collect_data_files("pyfiglet")
 
 a = Analysis(
-    ['downloader.py'],
+    ['smd/downloader.py'],
     pathex=[],
     binaries=[],
     datas=datas,

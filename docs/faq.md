@@ -115,7 +115,7 @@ This error occurs when PyInstaller misses the font files during the build proces
 1. Create a spec file:
 
    ```bash
-   pyi-makespec --onefile downloader.py
+   pyi-makespec --onefile smd/downloader.py
    ```
 
 2. Edit the generated `downloader.spec` file and add:

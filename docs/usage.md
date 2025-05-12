@@ -11,7 +11,7 @@ Ready to download videos like a pro? This guide will walk you through how to use
 If you’ve cloned the repo and set up your Python environment, you can launch the tool using:
 
 ```bash
-python3 downloader.py
+python3 smd/downloader.py
 ```
 
 The tool will start and prompt you for a **public** video URL — just paste the link, and the downloader will handle the rest!
