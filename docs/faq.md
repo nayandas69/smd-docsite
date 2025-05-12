@@ -348,7 +348,7 @@ Currently, it’s not officially Dockerized — but you're welcome to create you
 
 ### 36. Does it work on ARM-based systems (e.g. Raspberry Pi)?
 
-Yes, as long as Python and `ffmpeg` are available for your architecture, you should be able to run the tool. Use the Python script version, not a prebuilt binary.
+Yes, as long as Python and `ffmpeg` are available for your architecture, you should be able to run the tool. Use the Python script version, not a Build Artifacts binary.
 
 ---
 

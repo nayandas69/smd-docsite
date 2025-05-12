@@ -23,7 +23,7 @@ title: 📦 Release Archive
 | 2024-12-01 | 1.0.0 | No EXE available | No binary available | No .deb package available |
 
 !!! danger
-    Versions **v1.0.0 through v1.0.7** do not include pre-built EXE, Linux binary, or `.deb` packages.  
+    Versions **v1.0.0 through v1.0.7** do not include Build Artifacts EXE, Linux binary, or `.deb` packages.  
     Only source code is available for these releases. If you need to use them, you'll have to **build manually** from source.  
     We always recommend using the **latest release** to get the best features and compatibility.
 

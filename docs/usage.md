@@ -33,7 +33,7 @@ Once you press Enter, the video will be processed and downloaded automatically.
 
 ## Using the `.deb` Package
 
-For Debian-based systems (like Ubuntu), we provide a prebuilt `.deb` package so you can install it just like any other app.
+For Debian-based systems (like Ubuntu), we provide a Build Artifacts `.deb` package so you can install it just like any other app.
 
 ### Step-by-step:
 
@@ -72,7 +72,7 @@ On Windows, we offer a standalone `.exe` file that requires **no setup**.
 
 ## Using the Linux Binary
 
-For other Linux distributions, you can grab the prebuilt binary file.
+For other Linux distributions, you can grab the Build Artifacts binary file.
 
 ### Here’s how:
 

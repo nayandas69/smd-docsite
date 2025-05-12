@@ -85,7 +85,7 @@ python3 smd/downloader.py
 That’s it — you’ve set up the Social Media Downloader!
 
 !!! tip
-    Want to use the prebuilt `.exe`, `.tar.gz`, or `.deb` instead of building manually? Visit the [Release Archive](./archive.md).
+    Want to use the Build Artifacts `.exe`, `.tar.gz`, or `.deb` instead of building manually? Visit the [Release Archive](./archive.md).
 
 
 ---
@@ -94,6 +94,6 @@ That’s it — you’ve set up the Social Media Downloader!
 * [Usage Instructions](./usage.md) - Learn how to use the downloader effectively.
 * [Build Instructions](./build.md) - Customize your build with icons, silent mode, and more.
 * [Troubleshooting](./troubleshooting.md) - Common issues and how to fix them.
-* [Release Archive](./archive.md) - Prebuilt binaries for easy installation.
+* [Release Archive](./archive.md) - Build Artifacts binaries for easy installation.
 * [Contributing](./contribute.md) - Join the community and help improve the project.
 * [FAQ](./faq.md) - Frequently asked questions and answers.

@@ -78,7 +78,7 @@ def main():
         f"    For the latest release, visit the [Releases](https://github.com/{OWNER}/{REPO}/releases) page.\n\n"
         f"{markdown_table}\n\n"
         "!!! danger\n"
-        "    Versions **v1.0.0 through v1.0.7** do not include pre-built EXE, Linux binary, or `.deb` packages.  \n"
+        "    Versions **v1.0.0 through v1.0.7** do not include Build Artifacts EXE, Linux binary, or `.deb` packages.  \n"
         "    Only source code is available for these releases. If you need to use them, you'll have to **build manually** from source.  \n"
         "    We always recommend using the **latest release** to get the best features and compatibility.\n\n"
         f"---\n"
