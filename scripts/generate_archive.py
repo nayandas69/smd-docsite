@@ -24,9 +24,14 @@ def generate_markdown_table(releases):
     )
     rows = []
 
-    for release in releases:
+    for idx, release in enumerate(releases):
         date = release["published_at"][:10]
         version = release["tag_name"]
+
+        # Add Recommended badge to latest release
+        if idx == 0:
+            version += " <br>🟢 **Recommended**"
+
         assets = {
             asset["name"]: asset["browser_download_url"] for asset in release["assets"]
         }
